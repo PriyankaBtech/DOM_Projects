@@ -13,4 +13,5 @@ body{
       color: white;
       background-color: purple;
       font-size: x-large;
+      cursor: pointer;
 }
