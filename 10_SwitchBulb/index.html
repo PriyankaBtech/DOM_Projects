@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Bulb</title>
+
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn {
+            padding: 20px;
+            background-color: grey;
+            border-radius: 10%;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Image -->
+    <img class='center' id="off-bulb" src="./Img/Bulb-Off.jpg" alt="" height="500px" weight="500px">
+
+    <!-- On and Off buttons -->
+    <button class="center btn" id="switch-btn">Turn On</button>
+
+
+    <!-- JavaScript -->
+    <script>
+        const switchBtn = document.getElementById('switch-btn')
+        const bulbImg = document.getElementById('off-bulb')
+        switchBtn.addEventListener('click', (e) => {
+            console.log(e) // pointerEvent
+
+            if (switchBtn.textContent.includes('On')) {
+
+                bulbImg.src = "./Img/Bulb-On.avif"
+                switchBtn.textContent = "Turn-Off"                
+            } else {
+
+                bulbImg.src = "./Img/Bulb-Off.jpg"
+                switchBtn.textContent = "Turn-On"
+            }      
+            
+        })
+
+    </script>
+</body>
+</html>
