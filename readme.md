@@ -1,38 +1,38 @@
 ## Different projects of Document Object Model (DOM) using different EventListener.
 
--OneClick
+- OneClick
 
  link: https://priyankaoneclick.netlify.app/
 
--Double Click
+- Double Click
 
  link: https://priyankadoubleclick.netlify.app/
 
--Mouse Over
+- Mouse Over
 
  link: https://priyankamouseover.netlify.app/
 
--Mouse Out
+- Mouse Out
 
  link: https://priyankamouseout.netlify.app/
 
--Onkey Press
+- Onkey Press
 
  link: https://priyankakeypress.netlify.app/
 
--Key Down
+- Key Down
 
  link: https://priyankakeydown.netlify.app/
 
--Color Changer
+- Color Changer
 
 link: https://priyankacolorchanger.netlify.app/
 
--Square to Circle
+- Square to Circle
 
 Link: https://priyankacircle.netlify.app/
 
--Switch Bulb
+- Switch Bulb
 
 Link: https://priyankaswitchbulb.netlify.app/
 
